@@ -9,7 +9,7 @@ body{
 #wrapper{
 	width: 1024px;
 	height: 657px; 
-	background:url("file:///C:/Users/Pii/Desktop/benh/pii1l.github.io/img/IMG_9121.jpg");
+	background:url("../img/IMG_9121.jpg");
 	background-size: cover;
 	margin:0 auto;
 	padding:0 auto;
