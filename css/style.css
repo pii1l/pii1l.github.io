@@ -1,0 +1,128 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Oswald', sans-serif;
+}
+#wrapper{
+	width: 1024px;
+	height: 657px; 
+	background:url("file:///C:/Users/Pii/Desktop/benh/pii1l.github.io/img/IMG_9121.jpg");
+	background-size: cover;
+	margin:0 auto;
+	padding:0 auto;
+}
+#header{
+	height: 65px;
+	width: 1024px;
+	background: #383838;
+
+}
+#logo{
+	height: 50px;
+	width: 300px;
+/*	background: grey;*/
+	float: left;
+	padding-top: 15px;
+	padding-left: 45px;
+	
+}
+#logo a{
+	margin-top: 10px;
+	
+}
+#menu{
+	width: 679px;
+	height: 65px;
+/*	background: #C96162;*/
+	float: right;
+}
+#menu ul{
+	list-style: none;
+	margin-top: 20px;
+	color: black;
+}
+#menu ul li{
+	float: left;
+	margin-left: 50px;
+	 
+}
+#menu ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: 900px;
+}
+#menu ul li a:hover{
+	color: #FD9B18;
+	transition-duration: 0.2;
+	font-weight: bold
+}
+#content{
+	width: 1024px;
+	height: 592px;
+/*	background: red;*/
+	position: absolute;
+}
+.bg-tx{
+	width: 1024px;
+	height: 160px;
+	background: black;
+	opacity: 0.7;
+	position: absolute;
+	margin-top: 185px;
+	
+}
+.text{
+	width: 800px;
+	height: 375px;
+/*	background: black;*/
+	margin-top: 195px;
+	float: left;
+	margin-left: 180px;
+	position: absolute;
+}
+#text1{
+	color:#FD9B18;
+	font-size: 15px;
+	font-weight: 100px;
+}
+hr#new1{
+	width: 200px;
+	border: 1.5px solid #FD9B18;
+}
+#text2{
+	color:white;
+	text-transform: uppercase;
+	font-size: 20px;
+	line-height: 30px;
+/*	margin-top:20px;*/
+	width: 380px;
+	font-weight: bolder;
+/*	opacity: 0.8;*/
+}
+#text3{
+	color: snow;
+	border: white;
+/*	margin-top: 5px;*/
+	font-size: 60px;
+/*	margin-left: -180px;*/
+/*	opacity: 0.5;*/
+	line-height: 50px;
+}
+.btn1 {
+    border: 1px solid #FFFFFF;
+    background-color: white;
+    color: black;
+    padding: 15px 50px;
+    font-size: 16px;
+    cursor: pointer;
+	float: left;
+	margin-top: 30px;
+	margin-right: 100px;
+}
+.btn1:hover{
+	color: orange;
+	background-color: black;
+}
